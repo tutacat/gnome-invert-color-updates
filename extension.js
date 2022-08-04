@@ -24,7 +24,7 @@ const TrueInvertWindowEffect = new GObject.registerClass({
 			void main() {
 				vec4 c = texture2D(tex, cogl_tex_coord_in[0].st);
 
-				float white_bias = 0.1; // lower -> higher contrast
+				float white_bias = c.a * 0.1; // lower -> higher contrast
 				float m = 1.0 + white_bias;
 				
 				float shift = white_bias + c.a - min(c.r, min(c.g, c.b)) - max(c.r, max(c.g, c.b));
