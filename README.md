@@ -1,6 +1,6 @@
-# True Color Invert
+# True Color Window Inverter
 
-**This is a fork of JackKenney/true-color-invert due to 2+ years of inactivity on the project**
+**This is a fork of JackKenney/true-color-window-invert due to 2+ years of inactivity on the project**
 
 GNOME shell extension for inverting window colors in hue preserving manner. Effectively a manual dark theme for GNOME windows.
 
@@ -17,7 +17,7 @@ Available on the GNOME Extensions website here:
 - Gnome 41
 - Gnome 42
 - Gnome 43
-- Gnome 44 (Experimental)
+- Gnome 44
 
 
 ## Keyboard Shortcut
