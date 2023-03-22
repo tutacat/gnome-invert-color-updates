@@ -13,30 +13,7 @@ const TrueInvertWindowEffect = new GObject.registerClass({
 	Name: 'TrueInvertWindowEffect',
 }, class TrueInvertWindowEffect extends Clutter.ShaderEffect {
 	vfunc_get_static_shader_source() {
-		return `
-			uniform bool invert_color;
-			uniform float opacity = 1.0;
-			uniform sampler2D tex;
-
-			/**
-			 * based on shift_whitish.glsl https://github.com/vn971/linux-color-inversion with minor edits
-			 */
-			void main() {
-				vec4 c = texture2D(tex, cogl_tex_coord_in[0].st);
-
-				float white_bias = c.a * 0.1; // lower -> higher contrast
-				float m = 1.0 + white_bias;
-				
-				float shift = white_bias + c.a - min(c.r, min(c.g, c.b)) - max(c.r, max(c.g, c.b));
-				
-				c = vec4((shift + c.r) / m, 
-						(shift + c.g) / m, 
-						(shift + c.b) / m, 
-						c.a);
-
-				cogl_color_out = c;
-			}
-		`;
+		return ;
 	}
 
 	vfunc_paint_target(paint_node = null, paint_context = null) {
