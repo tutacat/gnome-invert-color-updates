@@ -23,7 +23,7 @@ Deprecated versions should work, but will not be supported nor will they recieve
 
 ## Keyboard Shortcut
 
-`Super + SHIFT + I`
+`Super + I`
 
 ## Debugging
 
