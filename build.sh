@@ -1,3 +1,3 @@
-rm true-color-invert@jackkenney.zip
+rm true-color-invert@lynet101.zip
 glib-compile-schemas schemas/
-zip true-color-invert@jackkenney.zip  * **/* -x build.sh
+zip true-color-invert@lynet101.zip  * **/* -x build.sh

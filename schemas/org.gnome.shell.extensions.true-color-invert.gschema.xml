@@ -2,7 +2,7 @@
 <schemalist gettext-domain="gnome-shell-extensions">
 	<schema path="/org/gnome/shell/extensions/true-color-invert/" id="org.gnome.shell.extensions.true-color-invert">
 		<key type="as" name="invert-window-shortcut">
-			<default><![CDATA[['<Super>I']]]></default>
+			<default><![CDATA[['<Super><SHIFT>I']]]></default>
 		</key>
 	</schema>
 </schemalist>

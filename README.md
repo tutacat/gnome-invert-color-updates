@@ -1,14 +1,28 @@
 # True Color Invert
 
+**This is a fork of JackKenney/true-color-invert due to 2+ years of inactivity on the project**
+
 GNOME shell extension for inverting window colors in hue preserving manner. Effectively a manual dark theme for GNOME windows.
 
 Available on the GNOME Extensions website here:
 
-https://extensions.gnome.org/extension/3530/true-color-invert/
+[PLACEHOLDER]
+
+## Supported Versions
+
+- Gnome 3.32 (deprecated)
+- Gnome 3.36 (deprecated)
+- Gnome 3.38 (deprecated)
+- Gnome 40
+- Gnome 41
+- Gnome 42
+- Gnome 43
+- Gnome 44 (Experimental)
+
 
 ## Keyboard Shortcut
 
-`Super + I`
+`Super + SHIFT + I`
 
 ## Debugging
 
@@ -26,6 +40,7 @@ glib-compile-schemas schemas/
 ```
 
 To recompile the `gschemas`.
+This step is not neccesary if the 'build.sh' is used, as it's included in the script
 
 ## Building for Release
 
