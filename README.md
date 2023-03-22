@@ -19,7 +19,7 @@ Available on the GNOME Extensions website here:
 - Gnome 43
 - Gnome 44
 
-Deprecated versions should work, but no support or further updates will be provided.
+Deprecated versions should work, but will not be supported nor will they recieve any further updates.
 
 ## Keyboard Shortcut
 
