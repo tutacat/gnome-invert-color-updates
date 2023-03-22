@@ -6,7 +6,7 @@ GNOME shell extension for inverting window colors in hue preserving manner. Effe
 
 Available on the GNOME Extensions website here:
 
-[PLACEHOLDER]
+https://extensions.gnome.org/extension/5829/true-color-invert/
 
 ## Supported Versions
 
