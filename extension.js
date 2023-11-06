@@ -1,11 +1,14 @@
-const Main = imports.ui.main;
-const GObject = imports.gi.GObject;
-const Meta = imports.gi.Meta;
-const Shell = imports.gi.Shell;
-const Clutter = imports.gi.Clutter;
+import * as Main from 'gi://GnomeDesktop/Main';
+import * as GObject from 'gi://GObject/GObject';
+import * as Meta from 'gi://GnomeDesktop/Meta';
+import * as Shell from 'gi://GnomeDesktop/Shell';
+import * as Clutter from 'gi://Clutter/Clutter';
 
-const ExtensionUtils = imports.misc.extensionUtils;
-const Self = ExtensionUtils.getCurrentExtension();
+import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
+const Self = Extension.metadata;
+
+
+
 
 const SHORTCUT = 'invert-window-shortcut';
 

@@ -11,9 +11,10 @@
     "41",
     "42", 
     "43", 
-    "44"
+    "44",
+    "45"
   ],
   "url": "https://github.com/Lynet101/gnome-true-color-invert",
   "uuid": "true-color-window-invert@lynet101",
-  "version": 13
+  "version": 14
 }
