@@ -1,9 +1,16 @@
 # True Color Window Inverter
 
+**!!!IMPORTANT!!!**
+*As of December the 5th, 2023, this project is orphaned, and will no longer be maintained by developer Lynet_101*
+This decission comes due to changes and stress in the personal, as well as professional life. 
+I thank you all for using this extension, and apologize for any inconvenience this change might cause
+---
+
 **This is a fork of JackKenney/true-color-window-invert due to 2+ years of inactivity on the project**
 
 **Gnome 45**
-Is not supported yet, and may not be for a while. I'll be doing my best to port the extension as quickly as possible, but gnome has reworked major parts of their framework, braking many extensions along the way. As a solo developer, i have a lot to look after, so i assure you that work is being made, i just can't say when it'll be done
+is currently not supported. An experimental solution is in place, but now working, and will need fixing
+
 
 GNOME shell extension for inverting window colors in hue preserving manner. Effectively a manual dark theme for GNOME windows.
 
