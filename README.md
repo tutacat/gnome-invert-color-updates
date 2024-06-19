@@ -9,7 +9,7 @@ I thank you all for using this extension, and apologize for any inconvenience th
 **This is a fork of JackKenney/true-color-window-invert due to 2+ years of inactivity on the project**
 
 **Gnome 45**
-is currently not supported. An experimental solution is in place, but now working, and will need fixing
+is currently experimental. This will need fixing.
 
 
 GNOME shell extension for inverting window colors in hue preserving manner. Effectively a manual dark theme for GNOME windows.
