@@ -1,7 +1,8 @@
-rm true-color-window-invert@tutacat.github.io.shell-extension.zip
+rm invert-window-colors.zip
+cd invert-window-colors@tutacat.github.io
 glib-compile-schemas schemas/
 if command -v gnome-extensions; then
-  gnome-extensions pack .
+  gnome-extensions pack . -o ..
 else
-  zip true-color-window-invert@tutacat.github.io.zip  * **/* -x build.sh
+  zip -r "../$(basename "$(realpath .)").zip .
 fi
